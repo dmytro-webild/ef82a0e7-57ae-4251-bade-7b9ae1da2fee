@@ -24,24 +24,24 @@ export default function HomePage() {
         <HeroBillboardBrandFloatingCards
           textAnimation="fade-blur"
           brand="Dolcea Chocolate"
-          description="Handcrafted Belgian chocolate-coated fruits and nuts, custom made for your special celebrations and everyday moments."
+          description="Handmade in Gold Coast, Australia. We craft luxury chocolate coated fruit boxes, chocolate coated fruit hearts, and chocolate teddy bears using premium Australian ingredients and fine Belgian chocolate."
           primaryButton={{
-            text: "Our Collection",
+            text: "Hand-Dipped Selections",
             href: "#menu"
           }}
           secondaryButton={{
-            text: "Our Process",
-            href: "#gallery"
+            text: "Our Brand Story",
+            href: "#services"
           }}
           videoSrc="https://videos.pexels.com/video-files/4458588/4458588-sd_960_506_24fps.mp4"
           floatingCards={[
             {
               imageSrc: "https://img.b2bpic.net/free-photo/handmade-chocolate-mediants-cookies-bites-candies-nuts-copyspace-top-view_114579-4839.jpg",
-              name: "Berry Medley"
+              name: "Fruit Boxes"
             },
             {
-              imageSrc: "https://img.b2bpic.net/free-photo/chocolate-candies-nuts-sackcloth_176420-7430.jpg",
-              name: "Nut Clusters"
+              imageSrc: "https://img.b2bpic.net/free-photo/wooden-plate-full-heart-shaped-jelly-candies-with-christmas-balls_114579-32001.jpg",
+              name: "Fruit Hearts"
             }
           ]}
         />
@@ -49,48 +49,48 @@ export default function HomePage() {
 
       <div id="gallery" data-webild-section="GalleryCupTrack" data-webild-section-id="GalleryCupTrack-1" data-section="gallery" data-scene>
         <GalleryCupTrack
-          tag="Our process"
-          title="Belgian chocolate, picked fruit, real nuts"
+          tag="Gold Coast Atelier"
+          title="Handmade with Australian Ingredients & Belgian Chocolate"
           items={[
             {
-              title: "Belgian cocoa",
+              title: "Belgian chocolate",
               imageSrc: "https://img.b2bpic.net/free-photo/dark-white-milk-chocolate-pieces-top-view_2831-819.jpg",
-              imageAlt: "Dark, white and milk chocolate pieces. Top view"
+              imageAlt: "Dark, white and milk Belgian chocolate pieces"
             },
             {
-              title: "Hand tempering",
-              imageSrc: "https://img.b2bpic.net/free-photo/view-hot-herbal-tea-soft-cake-with-fruits-chocolate-bars-mixed-color-table_140725-86518.jpg",
-              imageAlt: "Above view of hot herbal tea soft cake with fruits chocolate bars on mixed color table"
-            },
-            {
-              title: "Picked dried fruit",
-              imageSrc: "https://img.b2bpic.net/free-photo/top-view-different-kind-snacks-as-nuts-chips-napkin-white-wooden-surface-horizontal_176474-976.jpg",
-              imageAlt: "Top view of different kind of snacks as nuts and chips on napkin on white wooden surface horizontal"
-            },
-            {
-              title: "Roasted hazelnut",
-              imageSrc: "https://img.b2bpic.net/free-photo/hazelnuts-concrete_114579-7920.jpg",
-              imageAlt: "Hazelnuts on concrete"
-            },
-            {
-              title: "Artisanal coating",
-              imageSrc: "https://img.b2bpic.net/free-photo/top-view-cake-slices-with-cookies-sweets-white-surface_140725-90753.jpg",
-              imageAlt: "Top view cake slices with cookies and sweets on a white surface"
-            },
-            {
-              title: "Selected walnuts",
-              imageSrc: "https://img.b2bpic.net/free-photo/top-view-tasty-gourmet-snack-table_23-2148405916.jpg",
-              imageAlt: "Top view tasty gourmet snack on the table"
-            },
-            {
-              title: "Fruit confections",
+              title: "Australian fruits",
               imageSrc: "https://img.b2bpic.net/free-photo/side-close-up-view-dessert-appetizing-cake-with-strawberries-chocolate-grey-plate-bowls-with-strawberries-chocolate-cream-dark-background_140725-110422.jpg",
-              imageAlt: "Side close-up view dessert appetizing cake with strawberries and chocolate on grey plate next to bowls with strawberries and chocolate cream on the dark background"
+              imageAlt: "Fresh Australian strawberries and fruits"
             },
             {
-              title: "Small batch craft",
-              imageSrc: "https://img.b2bpic.net/free-photo/spoon-with-peanuts-hazelnuts_23-2147803727.jpg",
-              imageAlt: "Spoon with peanuts on hazelnuts"
+              title: "Chocolate fruit boxes",
+              imageSrc: "https://img.b2bpic.net/free-photo/handmade-chocolate-mediants-cookies-bites-candies-nuts-copyspace-top-view_114579-4839.jpg",
+              imageAlt: "Luxury Belgian chocolate coated fruit box"
+            },
+            {
+              title: "Chocolate fruit hearts",
+              imageSrc: "https://img.b2bpic.net/free-photo/wooden-plate-full-heart-shaped-jelly-candies-with-christmas-balls_114579-32001.jpg",
+              imageAlt: "Belgian chocolate coated fruit hearts"
+            },
+            {
+              title: "Chocolate teddy bears",
+              imageSrc: "https://img.b2bpic.net/free-photo/chocolate-candies-nuts-sackcloth_176420-7430.jpg",
+              imageAlt: "Handcrafted chocolate teddy bears made of Belgian chocolate"
+            },
+            {
+              title: "Chocolate catering table",
+              imageSrc: "https://img.b2bpic.net/free-photo/top-view-tasty-gourmet-snack-table_23-2148405916.jpg",
+              imageAlt: "Luxury chocolate catering table display"
+            },
+            {
+              title: "Artisanal tempering",
+              imageSrc: "https://img.b2bpic.net/free-photo/sweet-dessert-with-dark-chocolate_74190-7176.jpg",
+              imageAlt: "Artisanal hand tempering of chocolate"
+            },
+            {
+              title: "Gold Coast handmade",
+              imageSrc: "https://img.b2bpic.net/free-photo/top-view-cake-slices-with-cookies-sweets-white-surface_140725-90753.jpg",
+              imageAlt: "Gold Coast handmade chocolate delicacies"
             }
           ]}
         />
@@ -99,27 +99,27 @@ export default function HomePage() {
       <div id="services" data-webild-section="FeaturesGridSplitLarge" data-webild-section-id="FeaturesGridSplitLarge-1" data-section="services">
         <FeaturesGridSplitLarge
           textAnimation="fade-blur"
-          tag="The standard"
-          title="Why every bite tastes precise"
-          description="We source whole ingredients directly from orchards and temper classic Belgian cocoa daily."
+          tag="Brand Story"
+          title="Handmade quality with Australian ingredients & Belgian chocolate"
+          description="Based in Gold Coast, Australia, Dolcea Chocolate crafts artisanal confections by hand. We pair locally harvested Australian fresh fruits with rich Belgian chocolate."
           topItems={[
             {
-              title: "Selected Orchards",
-              description: "Sourced from grower partners for whole, plump fruit and crisp nut kernels.",
+              title: "Fresh Australian Ingredients",
+              description: "Plump, sweet Australian strawberries, berries, and fruits harvested directly from local growers.",
               imageSrc: "https://img.b2bpic.net/free-photo/wooden-plate-full-nuts-crackers-dried-apricots-marble-surface_114579-42785.jpg"
             },
             {
-              title: "Belgian Cocoa",
-              description: "Authentic Belgian chocolate blends formulated specifically for coating fruit and roasted nuts.",
+              title: "Premium Belgian Chocolate",
+              description: "Authentic, silky Belgian dark, milk, and ruby chocolate tempered fresh daily for a smooth, glossy coating.",
               imageSrc: "https://img.b2bpic.net/free-photo/sweet-dessert-with-dark-chocolate_74190-7176.jpg"
             }
           ]}
           bottomItem={{
-            title: "Hand-Finished Detail",
-            description: "Finished individually with delicate gold leaf dust, roasted cocoa nibs, or crushed pralines.",
-            imageSrc: "https://img.b2bpic.net/free-photo/chocolate-cookies-with-glass-tea-white-plate_114579-16055.jpg",
+            title: "Gold Coast Handcrafted Quality",
+            description: "Each chocolate coated fruit box, chocolate coated fruit heart, and chocolate teddy bear is dipped and decorated by hand in Gold Coast, Australia.",
+            imageSrc: "https://img.b2bpic.net/free-photo/handmade-chocolate-mediants-cookies-bites-candies-nuts-copyspace-top-view_114579-4839.jpg",
             primaryButton: {
-              text: "Get in Touch",
+              text: "Order Custom Gifts",
               href: "#contact"
             }
           }}
@@ -129,76 +129,71 @@ export default function HomePage() {
       <div id="menu" data-webild-section="FeaturesFilterGrid" data-webild-section-id="FeaturesFilterGrid-1" data-section="menu">
         <FeaturesFilterGrid
           textAnimation="fade-blur"
-          tag="Our Delicacies"
+          tag="Handmade Delicacies"
           title="Hand-Dipped Selections"
-          description="Choose from our signature range of chocolate-coated fruits and nuts, made to order."
+          description="Exclusively featuring our signature chocolate coated fruit boxes, chocolate coated fruit hearts, and chocolate teddy bears."
           categories={[
-            "Coated Fruits",
-            "Coated Nuts",
-            "Mixed Boxes"
+            "Fruit Boxes",
+            "Fruit Hearts",
+            "Chocolate Bears"
           ]}
           items={[
             {
-              name: "Strawberry Dream",
-              category: "Coated Fruits",
-              imageSrc: "https://img.b2bpic.net/free-photo/side-view-popcorn-bowl-white-wooden-table-horizontal_176474-4209.jpg"
+              name: "Signature Chocolate Fruit Box",
+              category: "Fruit Boxes",
+              imageSrc: "https://img.b2bpic.net/free-photo/handmade-chocolate-mediants-cookies-bites-candies-nuts-copyspace-top-view_114579-4839.jpg"
             },
             {
-              name: "Golden Almonds",
-              category: "Coated Nuts",
-              imageSrc: "https://img.b2bpic.net/free-photo/handmade-chocolate-mediants-cookies-bites-candies-nuts-copyspace-top-view_114579-4843.jpg"
+              name: "Belgian Berry & Fruit Box",
+              category: "Fruit Boxes",
+              imageSrc: "https://img.b2bpic.net/free-photo/side-close-up-view-dessert-appetizing-cake-with-strawberries-chocolate-grey-plate-bowls-with-strawberries-chocolate-cream-dark-background_140725-110422.jpg"
             },
             {
-              name: "Raspberry Bliss",
-              category: "Coated Fruits",
-              imageSrc: "https://img.b2bpic.net/free-photo/dark-plate-with-blackberries-dark-table_23-2148340424.jpg"
-            },
-            {
-              name: "Walnut Rich",
-              category: "Coated Nuts",
-              imageSrc: "https://img.b2bpic.net/free-photo/cooked-fresh-mushrooms-wooden-board-top-view_114579-66128.jpg"
-            },
-            {
-              name: "Apricot Delight",
-              category: "Coated Fruits",
-              imageSrc: "https://img.b2bpic.net/free-photo/delectable-seed-bowl-marble-surface_114579-79661.jpg"
-            },
-            {
-              name: "Pecan Luxury",
-              category: "Coated Nuts",
-              imageSrc: "https://img.b2bpic.net/free-photo/walnuts-walnut-kernels-wooden-bowl-high-quality-photo_114579-38016.jpg"
-            },
-            {
-              name: "Hazelnut Crunch",
-              category: "Coated Nuts",
-              imageSrc: "https://img.b2bpic.net/free-photo/easter-sweets-board_23-2147748732.jpg"
-            },
-            {
-              name: "Artisan Sampler",
-              category: "Mixed Boxes",
-              imageSrc: "https://img.b2bpic.net/free-photo/glass-jar-full-healthy-walnuts-gray-surface_114579-77110.jpg"
-            },
-            {
-              name: "Dark Fig Delights",
-              category: "Coated Fruits",
+              name: "Gold Coast Luxury Fruit Box",
+              category: "Fruit Boxes",
               imageSrc: "https://img.b2bpic.net/free-photo/dried-organic-fruits-assortment_114579-49248.jpg"
             },
             {
-              name: "Pistachio Cluster",
-              category: "Coated Nuts",
-              imageSrc: "https://img.b2bpic.net/free-photo/top-view-nougat-slices-with-nuts-dark-grey-space_140725-76351.jpg"
+              name: "Ruby Strawberry Fruit Hearts",
+              category: "Fruit Hearts",
+              imageSrc: "https://img.b2bpic.net/free-photo/wooden-plate-full-heart-shaped-jelly-candies-with-christmas-balls_114579-32001.jpg"
+            },
+            {
+              name: "Belgian Chocolate Fruit Hearts",
+              category: "Fruit Hearts",
+              imageSrc: "https://img.b2bpic.net/free-photo/handmade-chocolate-mediants-cookies-bites-candies-nuts-copyspace-top-view_114579-4843.jpg"
+            },
+            {
+              name: "Dark & Milk Chocolate Hearts",
+              category: "Fruit Hearts",
+              imageSrc: "https://img.b2bpic.net/free-photo/dark-plate-with-blackberries-dark-table_23-2148340424.jpg"
+            },
+            {
+              name: "Artisan Chocolate Teddy Bear",
+              category: "Chocolate Bears",
+              imageSrc: "https://img.b2bpic.net/free-photo/chocolate-candies-nuts-sackcloth_176420-7430.jpg"
+            },
+            {
+              name: "Belgian Milk Chocolate Teddy",
+              category: "Chocolate Bears",
+              imageSrc: "https://img.b2bpic.net/free-photo/sweet-dessert-with-dark-chocolate_74190-7176.jpg"
+            },
+            {
+              name: "Gold-Dusted Chocolate Bear",
+              category: "Chocolate Bears",
+              imageSrc: "https://img.b2bpic.net/free-photo/top-view-cake-slices-with-cookies-sweets-white-surface_140725-90753.jpg"
             }
           ]}
-          allLabel="All"
+          allLabel="All Selections"
         />
       </div>
 
       <div id="metrics" data-webild-section="MetricsCupCounters" data-webild-section-id="MetricsCupCounters-1" data-section="metrics">
         <MetricsCupCounters
-          tag="In numbers"
+          tag="Catering & Events"
           title="Crafted for celebrations"
-          imageSrc="https://img.b2bpic.net/free-photo/wooden-plate-full-heart-shaped-jelly-candies-with-christmas-balls_114579-32001.jpg"
-          imageAlt="A wooden plate full of heart shaped jelly candies with Christmas balls ."
+          imageSrc="https://img.b2bpic.net/free-photo/top-view-tasty-gourmet-snack-table_23-2148405916.jpg"
+          imageAlt="Luxury chocolate catering table with Belgian chocolate fruit boxes, fruit hearts, and chocolate teddy bears"
           items={[
             {
               value: 10,
@@ -206,18 +201,19 @@ export default function HomePage() {
               label: "Boxes delivered"
             },
             {
-              value: 25,
-              label: "Artisanal awards"
+              value: 100,
+              suffix: "%",
+              label: "Handmade quality"
             },
             {
               value: 50,
               suffix: "+",
-              label: "Cities shipped to"
+              label: "Catering tables set"
             },
             {
               value: 100,
               suffix: "%",
-              label: "Belgian cocoa"
+              label: "Belgian chocolate"
             }
           ]}
         />
@@ -225,36 +221,36 @@ export default function HomePage() {
 
       <div id="faq" data-webild-section="FaqGlassRows" data-webild-section-id="FaqGlassRows-1" data-section="faq">
         <FaqGlassRows
-          tag="Common details"
+          tag="Gold Coast Details"
           title="Before you order"
-          description="Clear answers regarding ingredients, temperature-controlled delivery, and proper storage."
+          description="Clear answers regarding our Australian ingredients, Gold Coast location, local pickup, and temperature-controlled shipping."
           imageSrc="https://img.b2bpic.net/free-photo/dried-fruits-berries-wooden-platter_114579-26504.jpg"
-          imageAlt="Dried fruits and berries on wooden platter."
-          imageLabel="Belgian fruits"
+          imageAlt="Belgian chocolate coated Australian fruits on wooden platter"
+          imageLabel="Gold Coast, Australia"
           items={[
             {
-              title: "Are your ingredients vegan and dairy-free?",
-              description: "We offer selected vegan options made with our 70% dark Belgian chocolate line. All ingredients and allergens are clearly labeled on every custom box."
+              title: "Where is Dolcea Chocolate located?",
+              description: "We are located in Gold Coast, Australia. All order creations are handcrafted fresh in our Gold Coast kitchen with available local pickup and temperature-controlled delivery."
             },
             {
-              title: "Do you ship across the country and internationally?",
-              description: "Yes, we ship to over 50 cities using temperature-controlled insulated packaging with ice packs to ensure fresh, unblemished delivery."
+              title: "What selections do you offer?",
+              description: "We feature exclusively three handcrafted specialties: chocolate coated fruit boxes, chocolate coated fruit hearts, and chocolate teddy bears made entirely out of chocolate."
             },
             {
-              title: "How should I store handcrafted chocolate-coated fruits?",
-              description: "Keep your confections in a cool, dry place between 60°F and 68°F away from direct sunlight. Avoid refrigeration to protect the glossy temper and crisp texture."
+              title: "What ingredients do you use?",
+              description: "We combine fresh, sweet Australian fruits sourced locally from Australian growers with authentic premium Belgian dark, milk, and ruby chocolate."
             },
             {
-              title: "Can I customize chocolate boxes for gifts and events?",
-              description: "Yes. You can select custom combinations of dried fruits, premium nuts, and Belgian chocolate finishes. Contact hello@dolceachocolate.com for personalized orders."
+              title: "Do you offer chocolate catering tables for events?",
+              description: "Yes! We design bespoke luxury chocolate catering tables for weddings, birthdays, and corporate celebrations across Gold Coast and South East Queensland."
             },
             {
-              title: "What is the shelf life of your chocolate-coated confections?",
-              description: "Our dark chocolate dipped fruits and roasted nuts remain optimal for 3 to 4 weeks when stored properly in their sealed gift packaging."
+              title: "How should I store handcrafted chocolate fruit items?",
+              description: "Keep your confections in a cool, dry place between 16°C and 20°C (60°F–68°F) away from direct sunlight for peak freshness and glossy finish."
             },
             {
-              title: "Are your nuts roasted in-house before dipping?",
-              description: "We source premium pecans, hazelnuts, and walnuts, then small-batch roast them in-house immediately before coating in authentic Belgian chocolate."
+              title: "Can I customize orders for gifts or parties?",
+              description: "Absolutely. You can request custom assortments of fruit boxes, heart arrangements, or chocolate teddy bears. Contact us via email or WhatsApp."
             }
           ]}
         />
@@ -263,17 +259,17 @@ export default function HomePage() {
       <div id="contact" data-webild-section="ContactBar" data-webild-section-id="ContactBar-1" data-section="contact">
         <ContactBar
           textAnimation="fade-blur"
-          tag="Custom gifts"
-          title="Order your custom chocolate box"
+          tag="Gold Coast, Australia"
+          title="Order your custom chocolate creations"
           options={[
             {
               icon: Mail,
-              label: "Email",
+              label: "Email Gold Coast Studio",
               href: "mailto:hello@dolceachocolate.com"
             },
             {
               icon: MessageCircle,
-              label: "WhatsApp",
+              label: "WhatsApp Gold Coast",
               href: "https://wa.me/"
             }
           ]}
