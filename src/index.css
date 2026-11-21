@@ -10,15 +10,15 @@
 
 /* webild:theme-ai */
 :root {
-  --primary-cta: #e8c9a8;
-  --primary-cta-text: #18110d;
-  --secondary-cta: #2e221a;
-  --secondary-cta-text: #f4e9df;
-  --background-accent: #c98a55;
+  --primary-cta: #d4af37;
+  --primary-cta-text: #180e10;
+  --secondary-cta: #3e2227;
+  --secondary-cta-text: #f9eee8;
+  --background-accent: #e598a6;
 
-  --background: #18110d;
-  --foreground: #f4e9df;
-  --card: #241a14;
+  --background: #180e10;
+  --foreground: #f9eee8;
+  --card: #27171a;
   --card-foreground: var(--foreground);
   --popover: var(--card);
   --popover-foreground: var(--foreground);
@@ -26,16 +26,16 @@
   --primary-foreground: var(--primary-cta-text);
   --secondary: var(--secondary-cta);
   --secondary-foreground: var(--secondary-cta-text);
-  --muted: #211813;
-  --muted-foreground: #b8a495;
+  --muted: #211316;
+  --muted-foreground: #cbb4ab;
   --accent: var(--background-accent);
-  --accent-foreground: #18110d;
-  --deep: #0c0806;
-  --deep-foreground: #f4e9df;
+  --accent-foreground: #180e10;
+  --deep: #0e0708;
+  --deep-foreground: #f9eee8;
   --destructive: #ef4444;
   --destructive-foreground: #1b1b1b;
-  --border: #33261d;
-  --input: #33261d;
+  --border: #3e2329;
+  --input: #3e2329;
   --ring: var(--primary-cta);
   --radius: 1.75rem;
 
