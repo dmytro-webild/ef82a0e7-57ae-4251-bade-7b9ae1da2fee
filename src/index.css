@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=Cormorant+Garamond:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=Karla:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=Cormorant+Garamond:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=Karla:wght@400;500;600;700&family=Familjen+Grotesk:wght@400;500;600;700&display=swap");
 @import url("https://fonts.cdnfonts.com/css/messy-handwritten");
 @import "tailwindcss";
 @import "./styles/animations.css";
@@ -10,15 +10,15 @@
 
 /* webild:theme-ai */
 :root {
-  --primary-cta: #6b2f3a;
-  --primary-cta-text: #f8efee;
-  --secondary-cta: #ffffff;
-  --secondary-cta-text: #2e1a1c;
-  --background-accent: #d98c94;
+  --primary-cta: #e4d6c3;
+  --primary-cta-text: #121212;
+  --secondary-cta: #2a2724;
+  --secondary-cta-text: #f0ece6;
+  --background-accent: #b08a5a;
 
-  --background: #f8efee;
-  --foreground: #2e1a1c;
-  --card: #efdfdd;
+  --background: #121212;
+  --foreground: #f0ece6;
+  --card: #1e1c1a;
   --card-foreground: var(--foreground);
   --popover: var(--card);
   --popover-foreground: var(--foreground);
@@ -26,21 +26,21 @@
   --primary-foreground: var(--primary-cta-text);
   --secondary: var(--secondary-cta);
   --secondary-foreground: var(--secondary-cta-text);
-  --muted: #ede2e0;
-  --muted-foreground: #6a5254;
+  --muted: #1c1a18;
+  --muted-foreground: #a8a198;
   --accent: var(--background-accent);
-  --accent-foreground: #2e1a1c;
-  --deep: #2e1a1c;
-  --deep-foreground: #f8efee;
+  --accent-foreground: #121212;
+  --deep: #080808;
+  --deep-foreground: #f0ece6;
   --destructive: #ef4444;
   --destructive-foreground: #1b1b1b;
-  --border: #e4d1cf;
-  --input: #e4d1cf;
+  --border: #2c2926;
+  --input: #2c2926;
   --ring: var(--primary-cta);
   --radius: 1.75rem;
 
-  --font-heading: "Playfair Display", sans-serif;
-  --font-body: "DM Sans", sans-serif;
+  --font-heading: "Familjen Grotesk", sans-serif;
+  --font-body: "Inter Tight", sans-serif;
   --font-label: "Inter", sans-serif;
   --heading-weight: 600;
   --heading-tracking: 0em;
@@ -132,7 +132,7 @@ body {
   margin: 0;
   background-color: var(--background);
   color: var(--foreground);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Inter Tight", sans-serif;
   position: relative;
   min-height: 100vh;
   overscroll-behavior: none;
@@ -140,7 +140,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display", sans-serif;
+  font-family: "Familjen Grotesk", sans-serif;
 }
 
 .card,
@@ -257,16 +257,16 @@ button.card {
 [data-tone="deep"] {
   --background: var(--deep);
   --foreground: var(--deep-foreground);
-  --card: #efdfdd;
+  --card: #1e1c1a;
   --card-foreground: var(--deep-foreground);
   --primary: var(--deep-foreground);
   --primary-foreground: var(--deep);
   --secondary: #cb8152;
   --secondary-foreground: var(--deep-foreground);
-  --muted: #ede2e0;
-  --muted-foreground: #6a5254;
-  --border: #e4d1cf;
-  --input: #e4d1cf;
+  --muted: #1c1a18;
+  --muted-foreground: #a8a198;
+  --border: #2c2926;
+  --input: #2c2926;
   --ring: var(--deep-foreground);
   background-color: var(--background);
   color: var(--foreground);
