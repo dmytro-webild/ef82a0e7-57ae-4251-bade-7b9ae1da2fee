@@ -36,11 +36,11 @@ export default function HomePage() {
           videoSrc="https://videos.pexels.com/video-files/4458588/4458588-sd_960_506_24fps.mp4"
           floatingCards={[
             {
-              imageSrc: "https://img.b2bpic.net/free-photo/handmade-chocolate-mediants-cookies-bites-candies-nuts-copyspace-top-view_114579-4839.jpg",
+              imageSrc: "https://img.b2bpic.net/free-photo/handmade-chocolate-mediants-cookies-bites-candies-nuts-copyspace-top-view_114579-4839.jpg?_wi=1",
               name: "Fruit Boxes"
             },
             {
-              imageSrc: "https://img.b2bpic.net/free-photo/wooden-plate-full-heart-shaped-jelly-candies-with-christmas-balls_114579-32001.jpg",
+              imageSrc: "https://img.b2bpic.net/free-photo/wooden-plate-full-heart-shaped-jelly-candies-with-christmas-balls_114579-32001.jpg?_wi=1",
               name: "Fruit Hearts"
             }
           ]}
@@ -59,37 +59,37 @@ export default function HomePage() {
             },
             {
               title: "Australian fruits",
-              imageSrc: "https://img.b2bpic.net/free-photo/side-close-up-view-dessert-appetizing-cake-with-strawberries-chocolate-grey-plate-bowls-with-strawberries-chocolate-cream-dark-background_140725-110422.jpg",
+              imageSrc: "https://img.b2bpic.net/free-photo/side-close-up-view-dessert-appetizing-cake-with-strawberries-chocolate-grey-plate-bowls-with-strawberries-chocolate-cream-dark-background_140725-110422.jpg?_wi=1",
               imageAlt: "Fresh Australian strawberries and fruits"
             },
             {
               title: "Chocolate fruit boxes",
-              imageSrc: "https://img.b2bpic.net/free-photo/handmade-chocolate-mediants-cookies-bites-candies-nuts-copyspace-top-view_114579-4839.jpg",
+              imageSrc: "https://img.b2bpic.net/free-photo/handmade-chocolate-mediants-cookies-bites-candies-nuts-copyspace-top-view_114579-4839.jpg?_wi=2",
               imageAlt: "Luxury Belgian chocolate coated fruit box"
             },
             {
               title: "Chocolate fruit hearts",
-              imageSrc: "https://img.b2bpic.net/free-photo/wooden-plate-full-heart-shaped-jelly-candies-with-christmas-balls_114579-32001.jpg",
+              imageSrc: "https://img.b2bpic.net/free-photo/wooden-plate-full-heart-shaped-jelly-candies-with-christmas-balls_114579-32001.jpg?_wi=2",
               imageAlt: "Belgian chocolate coated fruit hearts"
             },
             {
               title: "Chocolate teddy bears",
-              imageSrc: "https://img.b2bpic.net/free-photo/chocolate-candies-nuts-sackcloth_176420-7430.jpg",
+              imageSrc: "https://img.b2bpic.net/free-photo/chocolate-candies-nuts-sackcloth_176420-7430.jpg?_wi=1",
               imageAlt: "Handcrafted chocolate teddy bears made of Belgian chocolate"
             },
             {
               title: "Chocolate catering table",
-              imageSrc: "https://img.b2bpic.net/free-photo/top-view-tasty-gourmet-snack-table_23-2148405916.jpg",
+              imageSrc: "https://img.b2bpic.net/free-photo/top-view-tasty-gourmet-snack-table_23-2148405916.jpg?_wi=1",
               imageAlt: "Luxury chocolate catering table display"
             },
             {
               title: "Artisanal tempering",
-              imageSrc: "https://img.b2bpic.net/free-photo/sweet-dessert-with-dark-chocolate_74190-7176.jpg",
+              imageSrc: "https://img.b2bpic.net/free-photo/sweet-dessert-with-dark-chocolate_74190-7176.jpg?_wi=1",
               imageAlt: "Artisanal hand tempering of chocolate"
             },
             {
               title: "Gold Coast handmade",
-              imageSrc: "https://img.b2bpic.net/free-photo/top-view-cake-slices-with-cookies-sweets-white-surface_140725-90753.jpg",
+              imageSrc: "https://img.b2bpic.net/free-photo/top-view-cake-slices-with-cookies-sweets-white-surface_140725-90753.jpg?_wi=1",
               imageAlt: "Gold Coast handmade chocolate delicacies"
             }
           ]}
@@ -111,13 +111,13 @@ export default function HomePage() {
             {
               title: "Premium Belgian Chocolate",
               description: "Authentic, silky Belgian dark, milk, and ruby chocolate tempered fresh daily for a smooth, glossy coating.",
-              imageSrc: "https://img.b2bpic.net/free-photo/sweet-dessert-with-dark-chocolate_74190-7176.jpg"
+              imageSrc: "https://img.b2bpic.net/free-photo/sweet-dessert-with-dark-chocolate_74190-7176.jpg?_wi=2"
             }
           ]}
           bottomItem={{
             title: "Gold Coast Handcrafted Quality",
             description: "Each chocolate coated fruit box, chocolate coated fruit heart, and chocolate teddy bear is dipped and decorated by hand in Gold Coast, Australia.",
-            imageSrc: "https://img.b2bpic.net/free-photo/handmade-chocolate-mediants-cookies-bites-candies-nuts-copyspace-top-view_114579-4839.jpg",
+            imageSrc: "https://img.b2bpic.net/free-photo/handmade-chocolate-mediants-cookies-bites-candies-nuts-copyspace-top-view_114579-4839.jpg?_wi=3",
             primaryButton: {
               text: "Order Custom Gifts",
               href: "#contact"
@@ -141,12 +141,12 @@ export default function HomePage() {
             {
               name: "Signature Chocolate Fruit Box",
               category: "Fruit Boxes",
-              imageSrc: "https://img.b2bpic.net/free-photo/handmade-chocolate-mediants-cookies-bites-candies-nuts-copyspace-top-view_114579-4839.jpg"
+              imageSrc: "https://img.b2bpic.net/free-photo/handmade-chocolate-mediants-cookies-bites-candies-nuts-copyspace-top-view_114579-4839.jpg?_wi=4"
             },
             {
               name: "Belgian Berry & Fruit Box",
               category: "Fruit Boxes",
-              imageSrc: "https://img.b2bpic.net/free-photo/side-close-up-view-dessert-appetizing-cake-with-strawberries-chocolate-grey-plate-bowls-with-strawberries-chocolate-cream-dark-background_140725-110422.jpg"
+              imageSrc: "https://img.b2bpic.net/free-photo/side-close-up-view-dessert-appetizing-cake-with-strawberries-chocolate-grey-plate-bowls-with-strawberries-chocolate-cream-dark-background_140725-110422.jpg?_wi=2"
             },
             {
               name: "Gold Coast Luxury Fruit Box",
@@ -156,7 +156,7 @@ export default function HomePage() {
             {
               name: "Ruby Strawberry Fruit Hearts",
               category: "Fruit Hearts",
-              imageSrc: "https://img.b2bpic.net/free-photo/wooden-plate-full-heart-shaped-jelly-candies-with-christmas-balls_114579-32001.jpg"
+              imageSrc: "https://img.b2bpic.net/free-photo/wooden-plate-full-heart-shaped-jelly-candies-with-christmas-balls_114579-32001.jpg?_wi=3"
             },
             {
               name: "Belgian Chocolate Fruit Hearts",
@@ -171,17 +171,17 @@ export default function HomePage() {
             {
               name: "Artisan Chocolate Teddy Bear",
               category: "Chocolate Bears",
-              imageSrc: "https://img.b2bpic.net/free-photo/chocolate-candies-nuts-sackcloth_176420-7430.jpg"
+              imageSrc: "https://img.b2bpic.net/free-photo/chocolate-candies-nuts-sackcloth_176420-7430.jpg?_wi=2"
             },
             {
               name: "Belgian Milk Chocolate Teddy",
               category: "Chocolate Bears",
-              imageSrc: "https://img.b2bpic.net/free-photo/sweet-dessert-with-dark-chocolate_74190-7176.jpg"
+              imageSrc: "https://img.b2bpic.net/free-photo/sweet-dessert-with-dark-chocolate_74190-7176.jpg?_wi=3"
             },
             {
               name: "Gold-Dusted Chocolate Bear",
               category: "Chocolate Bears",
-              imageSrc: "https://img.b2bpic.net/free-photo/top-view-cake-slices-with-cookies-sweets-white-surface_140725-90753.jpg"
+              imageSrc: "https://img.b2bpic.net/free-photo/top-view-cake-slices-with-cookies-sweets-white-surface_140725-90753.jpg?_wi=2"
             }
           ]}
           allLabel="All Selections"
@@ -192,7 +192,7 @@ export default function HomePage() {
         <MetricsCupCounters
           tag="Catering & Events"
           title="Crafted for celebrations"
-          imageSrc="https://img.b2bpic.net/free-photo/top-view-tasty-gourmet-snack-table_23-2148405916.jpg"
+          imageSrc="https://img.b2bpic.net/free-photo/top-view-tasty-gourmet-snack-table_23-2148405916.jpg?_wi=2"
           imageAlt="Luxury chocolate catering table with Belgian chocolate fruit boxes, fruit hearts, and chocolate teddy bears"
           items={[
             {
