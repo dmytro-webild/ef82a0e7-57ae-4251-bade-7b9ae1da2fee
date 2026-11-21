@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=Cormorant+Garamond:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=Cormorant+Garamond:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap");
 @import url("https://fonts.cdnfonts.com/css/messy-handwritten");
 @import "tailwindcss";
 @import "./styles/animations.css";
@@ -10,15 +10,15 @@
 
 /* webild:theme-ai */
 :root {
-  --primary-cta: #d4af37;
-  --primary-cta-text: #484445;
-  --secondary-cta: #cb8152;
-  --secondary-cta-text: #3a1f25;
-  --background-accent: #d4af37;
+  --primary-cta: #6b2f3a;
+  --primary-cta-text: #f8efee;
+  --secondary-cta: #ffffff;
+  --secondary-cta-text: #2e1a1c;
+  --background-accent: #d98c94;
 
-  --background: #faf3f5;
-  --foreground: #3a1f25;
-  --card: #f2eaec;
+  --background: #f8efee;
+  --foreground: #2e1a1c;
+  --card: #efdfdd;
   --card-foreground: var(--foreground);
   --popover: var(--card);
   --popover-foreground: var(--foreground);
@@ -26,21 +26,21 @@
   --primary-foreground: var(--primary-cta-text);
   --secondary: var(--secondary-cta);
   --secondary-foreground: var(--secondary-cta-text);
-  --muted: color-mix(in srgb, #2C1810 8%, #F5F0E8);
-  --muted-foreground: color-mix(in srgb, #2C1810 65%, #F5F0E8);
+  --muted: #ede2e0;
+  --muted-foreground: #6a5254;
   --accent: var(--background-accent);
-  --accent-foreground: #3a1f25;
-  --deep: #3a1f25;
-  --deep-foreground: #faf3f5;
+  --accent-foreground: #2e1a1c;
+  --deep: #2e1a1c;
+  --deep-foreground: #f8efee;
   --destructive: #ef4444;
   --destructive-foreground: #1b1b1b;
-  --border: color-mix(in srgb, #2C1810 12%, #F5F0E8);
-  --input: color-mix(in srgb, #2C1810 12%, #F5F0E8);
+  --border: #e4d1cf;
+  --input: #e4d1cf;
   --ring: var(--primary-cta);
   --radius: 1.75rem;
 
-  --font-heading: "Cormorant Garamond", sans-serif;
-  --font-body: "Plus Jakarta Sans", sans-serif;
+  --font-heading: "Playfair Display", sans-serif;
+  --font-body: "DM Sans", sans-serif;
   --font-label: "Inter", sans-serif;
   --heading-weight: 600;
   --heading-tracking: 0em;
@@ -132,7 +132,7 @@ body {
   margin: 0;
   background-color: var(--background);
   color: var(--foreground);
-  font-family: "Inter", sans-serif;
+  font-family: "DM Sans", sans-serif;
   position: relative;
   min-height: 100vh;
   overscroll-behavior: none;
@@ -140,7 +140,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Messy Handwritten", sans-serif;
+  font-family: "Playfair Display", sans-serif;
 }
 
 .card,
@@ -257,16 +257,16 @@ button.card {
 [data-tone="deep"] {
   --background: var(--deep);
   --foreground: var(--deep-foreground);
-  --card: #f2eaec;
+  --card: #efdfdd;
   --card-foreground: var(--deep-foreground);
   --primary: var(--deep-foreground);
   --primary-foreground: var(--deep);
   --secondary: #cb8152;
   --secondary-foreground: var(--deep-foreground);
-  --muted: color-mix(in srgb, var(--deep-foreground) 8%, var(--deep));
-  --muted-foreground: color-mix(in srgb, var(--deep-foreground) 62%, var(--deep));
-  --border: color-mix(in srgb, var(--deep-foreground) 16%, var(--deep));
-  --input: color-mix(in srgb, var(--deep-foreground) 30%, var(--deep));
+  --muted: #ede2e0;
+  --muted-foreground: #6a5254;
+  --border: #e4d1cf;
+  --input: #e4d1cf;
   --ring: var(--deep-foreground);
   background-color: var(--background);
   color: var(--foreground);
