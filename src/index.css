@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=Cormorant+Garamond:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=Karla:wght@400;500;600;700&family=Familjen+Grotesk:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=Cormorant+Garamond:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=Karla:wght@400;500;600;700&family=Familjen+Grotesk:wght@400;500;600;700&family=Newsreader:wght@400;500;600;700&family=Work+Sans:wght@400;500;600;700&display=swap");
 @import url("https://fonts.cdnfonts.com/css/messy-handwritten");
 @import "tailwindcss";
 @import "./styles/animations.css";
@@ -10,15 +10,15 @@
 
 /* webild:theme-ai */
 :root {
-  --primary-cta: #d4af37;
-  --primary-cta-text: #180e10;
-  --secondary-cta: #3e2227;
-  --secondary-cta-text: #f9eee8;
-  --background-accent: #e598a6;
+  --primary-cta: #6b2433;
+  --primary-cta-text: #faf1f0;
+  --secondary-cta: #ffffff;
+  --secondary-cta-text: #3a1820;
+  --background-accent: #cf8f98;
 
-  --background: #180e10;
-  --foreground: #f9eee8;
-  --card: #27171a;
+  --background: #faf1f0;
+  --foreground: #3a1820;
+  --card: #f2e0e0;
   --card-foreground: var(--foreground);
   --popover: var(--card);
   --popover-foreground: var(--foreground);
@@ -26,21 +26,21 @@
   --primary-foreground: var(--primary-cta-text);
   --secondary: var(--secondary-cta);
   --secondary-foreground: var(--secondary-cta-text);
-  --muted: #211316;
-  --muted-foreground: #cbb4ab;
+  --muted: #ebe0df;
+  --muted-foreground: #765b60;
   --accent: var(--background-accent);
-  --accent-foreground: #180e10;
-  --deep: #0e0708;
-  --deep-foreground: #f9eee8;
+  --accent-foreground: #3a1820;
+  --deep: #3a1820;
+  --deep-foreground: #faf1f0;
   --destructive: #ef4444;
   --destructive-foreground: #1b1b1b;
-  --border: #3e2329;
-  --input: #3e2329;
+  --border: #e3d7d7;
+  --input: #e3d7d7;
   --ring: var(--primary-cta);
   --radius: 1.75rem;
 
-  --font-heading: "Cormorant Garamond", sans-serif;
-  --font-body: "Karla", sans-serif;
+  --font-heading: "Newsreader", sans-serif;
+  --font-body: "Work Sans", sans-serif;
   --font-label: "Inter", sans-serif;
   --heading-weight: 600;
   --heading-tracking: 0em;
@@ -132,7 +132,7 @@ body {
   margin: 0;
   background-color: var(--background);
   color: var(--foreground);
-  font-family: "Karla", sans-serif;
+  font-family: "Work Sans", sans-serif;
   position: relative;
   min-height: 100vh;
   overscroll-behavior: none;
@@ -140,7 +140,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Cormorant Garamond", sans-serif;
+  font-family: "Newsreader", sans-serif;
 }
 
 .card,
@@ -257,16 +257,16 @@ button.card {
 [data-tone="deep"] {
   --background: var(--deep);
   --foreground: var(--deep-foreground);
-  --card: #241a14;
+  --card: #f2e0e0;
   --card-foreground: var(--deep-foreground);
   --primary: var(--deep-foreground);
   --primary-foreground: var(--deep);
   --secondary: #cb8152;
   --secondary-foreground: var(--deep-foreground);
-  --muted: #211813;
-  --muted-foreground: #b8a495;
-  --border: #33261d;
-  --input: #33261d;
+  --muted: #ebe0df;
+  --muted-foreground: #765b60;
+  --border: #e3d7d7;
+  --input: #e3d7d7;
   --ring: var(--deep-foreground);
   background-color: var(--background);
   color: var(--foreground);
