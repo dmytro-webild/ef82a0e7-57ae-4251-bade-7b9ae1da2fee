@@ -36,11 +36,11 @@ export default function HomePage() {
           videoSrc="https://videos.pexels.com/video-files/4458588/4458588-sd_960_506_24fps.mp4"
           floatingCards={[
             {
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795313023436-slywe6pb.png",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795313023436-slywe6pb.png?_wi=1",
               name: "Chocolate Sticks"
             },
             {
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795313023439-tiy7i9uv.png",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795313023439-tiy7i9uv.png?_wi=1",
               name: "Teddy Bears"
             }
           ]}
@@ -64,12 +64,12 @@ export default function HomePage() {
             },
             {
               title: "Chocolate sticks",
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795313023436-slywe6pb.png",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795313023436-slywe6pb.png?_wi=2",
               imageAlt: "Luxury Belgian chocolate sticks topped with berries and nuts"
             },
             {
               title: "Chocolate teddy bears",
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795313023439-tiy7i9uv.png",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795313023439-tiy7i9uv.png?_wi=2",
               imageAlt: "Handcrafted Belgian chocolate teddy bears with gold accents"
             },
             {
@@ -112,7 +112,7 @@ export default function HomePage() {
           bottomItem={{
             title: "Gold Coast Handcrafted Quality",
             description: "Each chocolate stick and handcrafted chocolate teddy bear is dipped and decorated by hand in Gold Coast, Australia.",
-            imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795313023436-slywe6pb.png",
+            imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795313023436-slywe6pb.png?_wi=3",
             primaryButton: {
               text: "Order Custom Gifts",
               href: "#contact"
@@ -135,32 +135,32 @@ export default function HomePage() {
             {
               name: "Signature Chocolate Sticks Box",
               category: "Chocolate Sticks",
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795313023436-slywe6pb.png"
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795313023436-slywe6pb.png?_wi=4"
             },
             {
               name: "Belgian Berry & Nut Chocolate Sticks",
               category: "Chocolate Sticks",
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795313023436-slywe6pb.png"
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795313023436-slywe6pb.png?_wi=5"
             },
             {
               name: "Gold Coast Luxury Chocolate Sticks",
               category: "Chocolate Sticks",
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795313023436-slywe6pb.png"
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795313023436-slywe6pb.png?_wi=6"
             },
             {
               name: "Artisan Chocolate Teddy Bear Pair",
               category: "Teddy Bears",
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795313023439-tiy7i9uv.png"
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795313023439-tiy7i9uv.png?_wi=3"
             },
             {
               name: "Belgian Milk Chocolate Teddy Bears",
               category: "Teddy Bears",
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795313023439-tiy7i9uv.png"
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795313023439-tiy7i9uv.png?_wi=4"
             },
             {
               name: "Gold-Brushed Red & Milk Teddy Bears",
               category: "Teddy Bears",
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795313023439-tiy7i9uv.png"
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795313023439-tiy7i9uv.png?_wi=5"
             }
           ]}
           allLabel="All Selections"
