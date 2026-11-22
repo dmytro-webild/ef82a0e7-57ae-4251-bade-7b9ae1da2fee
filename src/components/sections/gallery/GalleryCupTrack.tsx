@@ -9,7 +9,7 @@ import { MotionMedia } from "@/components/kit/Media";
 
 const cn = (...inputs: ClassValue[]) => twMerge(clsx(inputs));
 
-type GalleryItem = { title?: string; imageSrc: string; imageAlt?: string };
+type GalleryItem = { title?: string; imageSrc: string; imageAlt?: string; objectPosition?: string; imageClassName?: string };
 
 type GalleryCupTrackProps = {
   tag?: string;
@@ -58,8 +58,11 @@ const TrackCard = ({ item, index, drift, reduce, duration, ease }: { item: Galle
           alt={item.imageAlt ?? item.title ?? ""}
           loading="lazy"
           decoding="async"
-          style={reduce ? undefined : { x: drift, left: `${-TRAVEL * 100}%`, width: `${(1 + 2 * TRAVEL) * 100}%` }}
-          className="absolute inset-y-0 left-0 h-full w-full max-w-none object-cover will-change-transform"
+          style={{
+            ...(reduce ? {} : { x: drift, left: `${-TRAVEL * 100}%`, width: `${(1 + 2 * TRAVEL) * 100}%` }),
+            ...(item.objectPosition ? { objectPosition: item.objectPosition } : {})
+          }}
+          className={cn("absolute inset-y-0 left-0 h-full w-full max-w-none object-cover will-change-transform", item.imageClassName)}
         />
         {item.title && (
           <div className="kit-card absolute inset-x-1 bottom-1 rounded-[calc(var(--radius-image)-0.25rem)] px-3 py-1.5 text-center lg:inset-x-2 lg:bottom-2 lg:py-2">
