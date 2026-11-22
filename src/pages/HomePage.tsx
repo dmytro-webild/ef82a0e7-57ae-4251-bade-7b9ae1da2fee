@@ -213,7 +213,7 @@ export default function HomePage() {
             },
             {
               title: "What ingredients do you use?",
-              description: "We combine fresh, sweet Australian fruits sourced locally from Australian growers with authentic premium Belgian dark, milk, and ruby chocolate."
+              description: "We combine fresh, sweet Australian fruits sourced locally from Australian growers with authentic premium VELICHE gourmet Belgian milk, white and dark chocolate."
             },
             {
               title: "Do you offer chocolate catering tables for events?",
