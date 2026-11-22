@@ -205,7 +205,7 @@ export default function HomePage() {
           items={[
             {
               title: "Where is Dolcea Chocolate located?",
-              description: "We are located in Gold Coast, Australia. All order creations are handcrafted fresh in our Gold Coast kitchen with available local pickup and temperature-controlled delivery."
+              description: "We are located in Biggera Waters, 4216. All order creations are handcrafted fresh in our Gold Coast kitchen with available local pickup and temperature-controlled delivery for bulk orders."
             },
             {
               title: "What selections do you offer?",
