@@ -151,7 +151,7 @@ export default function HomePage() {
             {
               name: "Donut box",
               category: "Donut Box",
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795316277131-ausuo4yw.png?_wi=1"
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795320890359-22271udb.png"
             },
             {
               name: "Mix box",
