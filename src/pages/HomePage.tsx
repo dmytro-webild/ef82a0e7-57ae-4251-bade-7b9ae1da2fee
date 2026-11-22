@@ -103,12 +103,12 @@ export default function HomePage() {
             {
               title: "Fresh Australian Ingredients",
               description: "Plump, sweet Australian strawberries, berries, and fruits harvested directly from local growers.",
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795317001464-dea82pe1.png"
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795317163815-eczbrd46.png"
             },
             {
               title: "Premium Belgian Chocolate",
               description: "Authentic, silky Belgian dark, milk, and ruby chocolate tempered fresh daily for a smooth, glossy coating.",
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795316143607-bskv0b61.png",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795317163816-ftm6aea6.png",
               zoom: 0,
               imageClassName: "object-cover"
             }
