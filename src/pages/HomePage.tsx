@@ -130,41 +130,33 @@ export default function HomePage() {
           textAnimation="fade-blur"
           tag="Handmade Delicacies"
           title="Hand-Dipped Selections"
-          description="Exclusively featuring our signature chocolate sticks and handcrafted teddy bears."
+          description="Exclusively featuring our signature stick box, teddy bear box, donut box, and mix box."
           categories={[
-            "Chocolate Sticks",
-            "Teddy Bears"
+            "Stick Box",
+            "Teddy Bear Box",
+            "Donut Box",
+            "Mix Box"
           ]}
           items={[
             {
-              name: "Signature Chocolate Sticks Box",
-              category: "Chocolate Sticks",
+              name: "Stick box",
+              category: "Stick Box",
               imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795313023436-slywe6pb.png?_wi=4"
             },
             {
-              name: "Belgian Berry & Nut Chocolate Sticks",
-              category: "Chocolate Sticks",
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795313023436-slywe6pb.png?_wi=5"
-            },
-            {
-              name: "Gold Coast Luxury Chocolate Sticks",
-              category: "Chocolate Sticks",
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795313023436-slywe6pb.png?_wi=6"
-            },
-            {
-              name: "Artisan Chocolate Teddy Bear Pair",
-              category: "Teddy Bears",
+              name: "Teddy bear box",
+              category: "Teddy Bear Box",
               imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795314013510-94u99mqt.png?_wi=3"
             },
             {
-              name: "Belgian Milk Chocolate Teddy Bears",
-              category: "Teddy Bears",
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795314013510-94u99mqt.png?_wi=4"
+              name: "Donut box",
+              category: "Donut Box",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795316277131-ausuo4yw.png?_wi=1"
             },
             {
-              name: "Gold-Brushed Red & Milk Teddy Bears",
-              category: "Teddy Bears",
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795314013510-94u99mqt.png?_wi=5"
+              name: "Mix box",
+              category: "Mix Box",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795314311757-4shb2y1m.png?_wi=1"
             }
           ]}
           allLabel="All Selections"
