@@ -217,7 +217,7 @@ export default function HomePage() {
             },
             {
               title: "Do you offer chocolate catering tables for events?",
-              description: "Yes! We design bespoke luxury chocolate catering tables for weddings, birthdays, and corporate celebrations across Gold Coast and South East Queensland."
+              description: "Yes! We design bespoke luxury chocolate catering tables for weddings, birthdays, and corporate celebrations across Gold Coast and Brisbane. "
             },
             {
               title: "How should I store handcrafted chocolate items?",
