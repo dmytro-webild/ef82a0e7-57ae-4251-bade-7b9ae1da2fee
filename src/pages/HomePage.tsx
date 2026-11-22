@@ -156,7 +156,7 @@ export default function HomePage() {
             {
               name: "Mix box",
               category: "Mix Box",
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795314311757-4shb2y1m.png?_wi=1"
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795320920382-h131965e.png"
             }
           ]}
           allLabel="All Selections"
