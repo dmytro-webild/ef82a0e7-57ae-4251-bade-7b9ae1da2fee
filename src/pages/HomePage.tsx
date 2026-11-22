@@ -55,7 +55,8 @@ export default function HomePage() {
             {
               title: "Belgian chocolate",
               imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795315168222-c25bvitw.png?_wi=1",
-              imageAlt: "Dark, white and milk Belgian chocolate pieces"
+              imageAlt: "Dark, white and milk Belgian chocolate pieces",
+              imageClassName: "object-contain"
             },
             {
               title: "Australian fruits",
@@ -107,7 +108,9 @@ export default function HomePage() {
             {
               title: "Premium Belgian Chocolate",
               description: "Authentic, silky Belgian dark, milk, and ruby chocolate tempered fresh daily for a smooth, glossy coating.",
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795315168222-c25bvitw.png"
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795315168222-c25bvitw.png",
+              zoom: 0,
+              imageClassName: "object-contain"
             }
           ]}
           bottomItem={{

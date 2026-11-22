@@ -6,6 +6,8 @@ import AvatarGroup from "@/components/display/AvatarGroup";
 type FeatureItem = {
   title: string;
   description: string;
+  zoom?: number;
+  imageClassName?: string;
 } & ({ imageSrc: string; videoSrc?: never } | { videoSrc: string; imageSrc?: never });
 
 type BottomFeatureItem = FeatureItem & {
@@ -74,7 +76,7 @@ const FeaturesGridSplitLarge = ({
             <AppearOnScroll key={item.title} variant="slide-up" delay={index * 0.08} className="h-full">
               <div className="flex flex-col gap-3 xl:gap-3.5 2xl:gap-4 p-3 xl:p-3.5 2xl:p-4 h-full card rounded">
                 <div className="relative aspect-square rounded overflow-hidden bg-foreground/5">
-                  <ParallaxImage src={item.imageSrc} videoSrc={item.videoSrc} />
+                  <ParallaxImage src={item.imageSrc} videoSrc={item.videoSrc} zoom={item.zoom} className={item.imageClassName} />
                 </div>
                 <div className="flex flex-col gap-2 p-3 xl:p-3.5 2xl:p-4">
                   <h3 className="text-2xl md:text-3xl 2xl:text-4xl font-semibold leading-tight text-balance">{item.title}</h3>
