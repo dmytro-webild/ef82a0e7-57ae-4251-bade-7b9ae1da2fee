@@ -7,7 +7,7 @@ import FaqGlassRows from "@/components/sections/faq/FaqGlassRows";
 import ContactBar from "@/components/sections/contact/ContactBar";
 import AuroraBackground from "@/components/backgrounds/AuroraBackground";
 import LoaderSwirl from "@/components/loaders/LoaderSwirl";
-import { Mail, MessageCircle, Instagram } from "lucide-react";
+import { Mail, Instagram } from "lucide-react";
 
 export default function HomePage() {
   return (
@@ -225,7 +225,7 @@ export default function HomePage() {
             },
             {
               title: "Can I customize orders for gifts or parties?",
-              description: "Absolutely. You can request custom assortments of chocolate sticks or chocolate teddy bear arrangements. Contact us via email (dolceachocolates@gmail.com), Instagram (@dolcea.choc), or WhatsApp."
+              description: "Absolutely. You can request custom assortments of chocolate sticks or chocolate teddy bear arrangements. Contact us via email (dolceachocolates@gmail.com) or Instagram (@dolcea.choc)."
             }
           ]}
         />
@@ -248,12 +248,6 @@ export default function HomePage() {
               label: "Instagram",
               sublabel: "dolcea.choc",
               href: "https://instagram.com/dolcea.choc"
-            },
-            {
-              icon: MessageCircle,
-              label: "WhatsApp",
-              sublabel: "Gold Coast",
-              href: "https://wa.me/"
             }
           ]}
         />
