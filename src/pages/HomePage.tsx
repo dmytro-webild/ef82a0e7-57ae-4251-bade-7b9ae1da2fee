@@ -54,7 +54,7 @@ export default function HomePage() {
           items={[
             {
               title: "Belgian chocolate",
-              imageSrc: "https://img.b2bpic.net/free-photo/sweet-dessert-with-dark-chocolate_74190-7176.jpg?_wi=1",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795315907491-ybby57tg.png",
               imageAlt: "Simple chocolate bar cracked into small pieces",
               imageClassName: "object-cover"
             },
@@ -80,7 +80,7 @@ export default function HomePage() {
             },
             {
               title: "Artisanal tempering",
-              imageSrc: "https://img.b2bpic.net/free-photo/sweet-dessert-with-dark-chocolate_74190-7176.jpg?_wi=1",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795315907491-ybby57tg.png",
               imageAlt: "Artisanal hand tempering of chocolate"
             },
             {
