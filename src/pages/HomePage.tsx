@@ -24,7 +24,7 @@ export default function HomePage() {
         <HeroBillboardBrandFloatingCards
           textAnimation="fade-blur"
           brand="Dolcea Chocolate"
-          description="Handmade in Gold Coast, Australia. We craft luxury chocolate coated fruit boxes, and teddy bears using premium Australian ingredients and fine Belgian chocolate."
+          description="Handmade in Gold Coast, Australia. We craft luxury chocolate sticks and teddy bears using premium Australian ingredients and fine Belgian chocolate."
           primaryButton={{
             text: "Hand-Dipped Selections",
             href: "#menu"
@@ -36,12 +36,12 @@ export default function HomePage() {
           videoSrc="https://videos.pexels.com/video-files/4458588/4458588-sd_960_506_24fps.mp4"
           floatingCards={[
             {
-              imageSrc: "https://img.b2bpic.net/free-photo/handmade-chocolate-mediants-cookies-bites-candies-nuts-copyspace-top-view_114579-4839.jpg?_wi=1",
-              name: "Fruit Boxes"
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795313023436-slywe6pb.png",
+              name: "Chocolate Sticks"
             },
             {
-              imageSrc: "https://img.b2bpic.net/free-photo/wooden-plate-full-heart-shaped-jelly-candies-with-christmas-balls_114579-32001.jpg?_wi=1",
-              name: "Fruit Hearts"
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795313023439-tiy7i9uv.png",
+              name: "Teddy Bears"
             }
           ]}
         />
@@ -63,19 +63,14 @@ export default function HomePage() {
               imageAlt: "Fresh Australian strawberries and fruits"
             },
             {
-              title: "Chocolate fruit boxes",
-              imageSrc: "https://img.b2bpic.net/free-photo/handmade-chocolate-mediants-cookies-bites-candies-nuts-copyspace-top-view_114579-4839.jpg?_wi=2",
-              imageAlt: "Luxury Belgian chocolate coated fruit box"
-            },
-            {
-              title: "Chocolate fruit hearts",
-              imageSrc: "https://img.b2bpic.net/free-photo/wooden-plate-full-heart-shaped-jelly-candies-with-christmas-balls_114579-32001.jpg?_wi=2",
-              imageAlt: "Belgian chocolate coated fruit hearts"
+              title: "Chocolate sticks",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795313023436-slywe6pb.png",
+              imageAlt: "Luxury Belgian chocolate sticks topped with berries and nuts"
             },
             {
               title: "Chocolate teddy bears",
-              imageSrc: "https://img.b2bpic.net/free-photo/chocolate-candies-nuts-sackcloth_176420-7430.jpg?_wi=1",
-              imageAlt: "Handcrafted chocolate teddy bears made of Belgian chocolate"
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795313023439-tiy7i9uv.png",
+              imageAlt: "Handcrafted Belgian chocolate teddy bears with gold accents"
             },
             {
               title: "Chocolate catering table",
@@ -116,8 +111,8 @@ export default function HomePage() {
           ]}
           bottomItem={{
             title: "Gold Coast Handcrafted Quality",
-            description: "Each chocolate coated fruit box, chocolate coated fruit heart, and chocolate teddy bear is dipped and decorated by hand in Gold Coast, Australia.",
-            imageSrc: "https://img.b2bpic.net/free-photo/handmade-chocolate-mediants-cookies-bites-candies-nuts-copyspace-top-view_114579-4839.jpg?_wi=3",
+            description: "Each chocolate stick and handcrafted chocolate teddy bear is dipped and decorated by hand in Gold Coast, Australia.",
+            imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795313023436-slywe6pb.png",
             primaryButton: {
               text: "Order Custom Gifts",
               href: "#contact"
@@ -131,57 +126,41 @@ export default function HomePage() {
           textAnimation="fade-blur"
           tag="Handmade Delicacies"
           title="Hand-Dipped Selections"
-          description="Exclusively featuring our signature chocolate coated fruit boxes, chocolate coated fruit hearts, and chocolate teddy bears."
+          description="Exclusively featuring our signature chocolate sticks and handcrafted teddy bears."
           categories={[
-            "Fruit Boxes",
-            "Fruit Hearts",
-            "Chocolate Bears"
+            "Chocolate Sticks",
+            "Teddy Bears"
           ]}
           items={[
             {
-              name: "Signature Chocolate Fruit Box",
-              category: "Fruit Boxes",
-              imageSrc: "https://img.b2bpic.net/free-photo/handmade-chocolate-mediants-cookies-bites-candies-nuts-copyspace-top-view_114579-4839.jpg?_wi=4"
+              name: "Signature Chocolate Sticks Box",
+              category: "Chocolate Sticks",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795313023436-slywe6pb.png"
             },
             {
-              name: "Belgian Berry & Fruit Box",
-              category: "Fruit Boxes",
-              imageSrc: "https://img.b2bpic.net/free-photo/side-close-up-view-dessert-appetizing-cake-with-strawberries-chocolate-grey-plate-bowls-with-strawberries-chocolate-cream-dark-background_140725-110422.jpg?_wi=2"
+              name: "Belgian Berry & Nut Chocolate Sticks",
+              category: "Chocolate Sticks",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795313023436-slywe6pb.png"
             },
             {
-              name: "Gold Coast Luxury Fruit Box",
-              category: "Fruit Boxes",
-              imageSrc: "https://img.b2bpic.net/free-photo/dried-organic-fruits-assortment_114579-49248.jpg"
+              name: "Gold Coast Luxury Chocolate Sticks",
+              category: "Chocolate Sticks",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795313023436-slywe6pb.png"
             },
             {
-              name: "Ruby Strawberry Fruit Hearts",
-              category: "Fruit Hearts",
-              imageSrc: "https://img.b2bpic.net/free-photo/wooden-plate-full-heart-shaped-jelly-candies-with-christmas-balls_114579-32001.jpg?_wi=3"
+              name: "Artisan Chocolate Teddy Bear Pair",
+              category: "Teddy Bears",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795313023439-tiy7i9uv.png"
             },
             {
-              name: "Belgian Chocolate Fruit Hearts",
-              category: "Fruit Hearts",
-              imageSrc: "https://img.b2bpic.net/free-photo/handmade-chocolate-mediants-cookies-bites-candies-nuts-copyspace-top-view_114579-4843.jpg"
+              name: "Belgian Milk Chocolate Teddy Bears",
+              category: "Teddy Bears",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795313023439-tiy7i9uv.png"
             },
             {
-              name: "Dark & Milk Chocolate Hearts",
-              category: "Fruit Hearts",
-              imageSrc: "https://img.b2bpic.net/free-photo/dark-plate-with-blackberries-dark-table_23-2148340424.jpg"
-            },
-            {
-              name: "Artisan Chocolate Teddy Bear",
-              category: "Chocolate Bears",
-              imageSrc: "https://img.b2bpic.net/free-photo/chocolate-candies-nuts-sackcloth_176420-7430.jpg?_wi=2"
-            },
-            {
-              name: "Belgian Milk Chocolate Teddy",
-              category: "Chocolate Bears",
-              imageSrc: "https://img.b2bpic.net/free-photo/sweet-dessert-with-dark-chocolate_74190-7176.jpg?_wi=3"
-            },
-            {
-              name: "Gold-Dusted Chocolate Bear",
-              category: "Chocolate Bears",
-              imageSrc: "https://img.b2bpic.net/free-photo/top-view-cake-slices-with-cookies-sweets-white-surface_140725-90753.jpg?_wi=2"
+              name: "Gold-Brushed Red & Milk Teddy Bears",
+              category: "Teddy Bears",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795313023439-tiy7i9uv.png"
             }
           ]}
           allLabel="All Selections"
@@ -193,7 +172,7 @@ export default function HomePage() {
           tag="Catering & Events"
           title="Crafted for celebrations"
           imageSrc="https://img.b2bpic.net/free-photo/top-view-tasty-gourmet-snack-table_23-2148405916.jpg?_wi=2"
-          imageAlt="Luxury chocolate catering table with Belgian chocolate fruit boxes, fruit hearts, and chocolate teddy bears"
+          imageAlt="Luxury chocolate catering table with Belgian chocolate sticks and chocolate teddy bears"
           items={[
             {
               value: 10,
@@ -234,7 +213,7 @@ export default function HomePage() {
             },
             {
               title: "What selections do you offer?",
-              description: "We feature exclusively three handcrafted specialties: chocolate coated fruit boxes, chocolate coated fruit hearts, and chocolate teddy bears made entirely out of chocolate."
+              description: "We feature exclusively signature handcrafted specialties: artisan chocolate sticks decorated with fresh fruits and nuts, and handcrafted chocolate teddy bears made entirely out of Belgian chocolate."
             },
             {
               title: "What ingredients do you use?",
@@ -245,12 +224,12 @@ export default function HomePage() {
               description: "Yes! We design bespoke luxury chocolate catering tables for weddings, birthdays, and corporate celebrations across Gold Coast and South East Queensland."
             },
             {
-              title: "How should I store handcrafted chocolate fruit items?",
+              title: "How should I store handcrafted chocolate items?",
               description: "Keep your confections in a cool, dry place between 16°C and 20°C (60°F–68°F) away from direct sunlight for peak freshness and glossy finish."
             },
             {
               title: "Can I customize orders for gifts or parties?",
-              description: "Absolutely. You can request custom assortments of fruit boxes, heart arrangements, or chocolate teddy bears. Contact us via email or WhatsApp."
+              description: "Absolutely. You can request custom assortments of chocolate sticks or chocolate teddy bear arrangements. Contact us via email or WhatsApp."
             }
           ]}
         />
