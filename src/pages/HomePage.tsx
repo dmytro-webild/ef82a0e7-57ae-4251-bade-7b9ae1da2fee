@@ -54,7 +54,7 @@ export default function HomePage() {
           items={[
             {
               title: "Belgian chocolate",
-              imageSrc: "https://img.b2bpic.net/free-photo/dark-white-milk-chocolate-pieces-top-view_2831-819.jpg",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795315168222-c25bvitw.png?_wi=1",
               imageAlt: "Dark, white and milk Belgian chocolate pieces"
             },
             {
@@ -107,7 +107,7 @@ export default function HomePage() {
             {
               title: "Premium Belgian Chocolate",
               description: "Authentic, silky Belgian dark, milk, and ruby chocolate tempered fresh daily for a smooth, glossy coating.",
-              imageSrc: "https://img.b2bpic.net/free-photo/sweet-dessert-with-dark-chocolate_74190-7176.jpg?_wi=2"
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795315168222-c25bvitw.png"
             }
           ]}
           bottomItem={{
