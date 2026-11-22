@@ -209,7 +209,7 @@ export default function HomePage() {
             },
             {
               title: "What selections do you offer?",
-              description: "We feature exclusively signature handcrafted specialties: artisan chocolate sticks decorated with fresh fruits and nuts, and handcrafted chocolate teddy bears made entirely out of Belgian chocolate."
+              description: "We feature exclusively signature handcrafted specialties: artisan chocolate sticks and donuts decorated with fresh fruits and nuts, and handcrafted chocolate teddy bears made entirely out of Belgian chocolate."
             },
             {
               title: "What ingredients do you use?",
