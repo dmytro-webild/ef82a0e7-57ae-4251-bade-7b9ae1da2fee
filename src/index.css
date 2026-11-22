@@ -10,15 +10,15 @@
 
 /* webild:theme-ai */
 :root {
-  --primary-cta: #e4d6c3;
-  --primary-cta-text: #121212;
-  --secondary-cta: #2a2724;
-  --secondary-cta-text: #f0ece6;
-  --background-accent: #b08a5a;
+  --primary-cta: #e8c9a8;
+  --primary-cta-text: #18110d;
+  --secondary-cta: #2e221a;
+  --secondary-cta-text: #f4e9df;
+  --background-accent: #c98a55;
 
-  --background: #121212;
-  --foreground: #f0ece6;
-  --card: #1e1c1a;
+  --background: #18110d;
+  --foreground: #f4e9df;
+  --card: #241a14;
   --card-foreground: var(--foreground);
   --popover: var(--card);
   --popover-foreground: var(--foreground);
@@ -26,21 +26,21 @@
   --primary-foreground: var(--primary-cta-text);
   --secondary: var(--secondary-cta);
   --secondary-foreground: var(--secondary-cta-text);
-  --muted: #1c1a18;
-  --muted-foreground: #a8a198;
+  --muted: #211813;
+  --muted-foreground: #b8a495;
   --accent: var(--background-accent);
-  --accent-foreground: #121212;
-  --deep: #080808;
-  --deep-foreground: #f0ece6;
+  --accent-foreground: #18110d;
+  --deep: #0c0806;
+  --deep-foreground: #f4e9df;
   --destructive: #ef4444;
   --destructive-foreground: #1b1b1b;
-  --border: #2c2926;
-  --input: #2c2926;
+  --border: #33261d;
+  --input: #33261d;
   --ring: var(--primary-cta);
   --radius: 1.75rem;
 
-  --font-heading: "Familjen Grotesk", sans-serif;
-  --font-body: "Inter Tight", sans-serif;
+  --font-heading: "Cormorant Garamond", sans-serif;
+  --font-body: "Karla", sans-serif;
   --font-label: "Inter", sans-serif;
   --heading-weight: 600;
   --heading-tracking: 0em;
@@ -132,7 +132,7 @@ body {
   margin: 0;
   background-color: var(--background);
   color: var(--foreground);
-  font-family: "Inter Tight", sans-serif;
+  font-family: "Karla", sans-serif;
   position: relative;
   min-height: 100vh;
   overscroll-behavior: none;
@@ -140,7 +140,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Familjen Grotesk", sans-serif;
+  font-family: "Cormorant Garamond", sans-serif;
 }
 
 .card,
@@ -257,16 +257,16 @@ button.card {
 [data-tone="deep"] {
   --background: var(--deep);
   --foreground: var(--deep-foreground);
-  --card: #1e1c1a;
+  --card: #241a14;
   --card-foreground: var(--deep-foreground);
   --primary: var(--deep-foreground);
   --primary-foreground: var(--deep);
   --secondary: #cb8152;
   --secondary-foreground: var(--deep-foreground);
-  --muted: #1c1a18;
-  --muted-foreground: #a8a198;
-  --border: #2c2926;
-  --input: #2c2926;
+  --muted: #211813;
+  --muted-foreground: #b8a495;
+  --border: #33261d;
+  --input: #33261d;
   --ring: var(--deep-foreground);
   background-color: var(--background);
   color: var(--foreground);
