@@ -139,7 +139,7 @@ export default function HomePage() {
           ]}
           items={[
             {
-              name: "Singature box",
+              name: "Singnature box",
               category: "Stick Box",
               imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795320846544-mqfxoxdg.png"
             },
