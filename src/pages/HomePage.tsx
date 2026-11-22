@@ -144,12 +144,12 @@ export default function HomePage() {
               imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795320846544-mqfxoxdg.png"
             },
             {
-              name: "Stick box deluxe",
+              name: "Baby pink edition",
               category: "Stick Box",
               imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795321157691-ae1gupb2.png"
             },
             {
-              name: "Stick box signature",
+              name: "Royal white edition",
               category: "Stick Box",
               imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795321157694-iqgyr0n4.png"
             },
