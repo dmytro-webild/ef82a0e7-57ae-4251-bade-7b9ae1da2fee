@@ -84,8 +84,9 @@ export default function HomePage() {
             },
             {
               title: "Gold Coast handmade",
-              imageSrc: "https://img.b2bpic.net/free-photo/top-view-cake-slices-with-cookies-sweets-white-surface_140725-90753.jpg?_wi=1",
-              imageAlt: "Gold Coast handmade chocolate delicacies"
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795314441451-70jc11sn.png",
+              imageAlt: "Gold Coast handmade chocolate process and craftsmanship",
+              objectPosition: "left"
             }
           ]}
         />
