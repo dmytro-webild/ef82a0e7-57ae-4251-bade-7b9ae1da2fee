@@ -7,7 +7,7 @@ export default function Layout() {
     <div className="relative isolate min-h-svh flex flex-col bg-background text-foreground" data-button="default" data-card="filled" data-pattern="none">
       <header data-webild-section="Header">
         <NavbarFullscreen
-          logo="Dolcea Chocolate"
+          logo="Welcome to our choco boutique! "
           navItems={[
             {
               name: "Selections",
