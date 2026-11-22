@@ -221,7 +221,7 @@ export default function HomePage() {
             },
             {
               title: "How should I store handcrafted chocolate items?",
-              description: "Keep your confections in a cool, dry place between 16°C and 20°C (60°F–68°F) away from direct sunlight for peak freshness and glossy finish."
+              description: "Keep your confections in a cool, dry place between 2°C and 5°C (refrigerator temperature) away from direct sunlight for peak freshness and glossy finish. Best to be consumed within 24-48 hours. "
             },
             {
               title: "Can I customize orders for gifts or parties?",
