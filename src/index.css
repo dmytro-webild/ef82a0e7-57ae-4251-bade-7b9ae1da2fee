@@ -10,15 +10,15 @@
 
 /* webild:theme-ai */
 :root {
-  --primary-cta: #6b2433;
-  --primary-cta-text: #faf1f0;
-  --secondary-cta: #ffffff;
-  --secondary-cta-text: #3a1820;
-  --background-accent: #cf8f98;
+  --primary-cta: #e4d6c3;
+  --primary-cta-text: #121212;
+  --secondary-cta: #2a2724;
+  --secondary-cta-text: #f0ece6;
+  --background-accent: #b08a5a;
 
-  --background: #faf1f0;
-  --foreground: #3a1820;
-  --card: #f2e0e0;
+  --background: #121212;
+  --foreground: #f0ece6;
+  --card: #1e1c1a;
   --card-foreground: var(--foreground);
   --popover: var(--card);
   --popover-foreground: var(--foreground);
@@ -26,21 +26,21 @@
   --primary-foreground: var(--primary-cta-text);
   --secondary: var(--secondary-cta);
   --secondary-foreground: var(--secondary-cta-text);
-  --muted: #ebe0df;
-  --muted-foreground: #765b60;
+  --muted: #1c1a18;
+  --muted-foreground: #a8a198;
   --accent: var(--background-accent);
-  --accent-foreground: #3a1820;
-  --deep: #3a1820;
-  --deep-foreground: #faf1f0;
+  --accent-foreground: #121212;
+  --deep: #080808;
+  --deep-foreground: #f0ece6;
   --destructive: #ef4444;
   --destructive-foreground: #1b1b1b;
-  --border: #e3d7d7;
-  --input: #e3d7d7;
+  --border: #2c2926;
+  --input: #2c2926;
   --ring: var(--primary-cta);
   --radius: 1.75rem;
 
-  --font-heading: "Newsreader", sans-serif;
-  --font-body: "Work Sans", sans-serif;
+  --font-heading: "Familjen Grotesk", sans-serif;
+  --font-body: "Inter Tight", sans-serif;
   --font-label: "Inter", sans-serif;
   --heading-weight: 600;
   --heading-tracking: 0em;
@@ -132,7 +132,7 @@ body {
   margin: 0;
   background-color: var(--background);
   color: var(--foreground);
-  font-family: "Work Sans", sans-serif;
+  font-family: "Inter Tight", sans-serif;
   position: relative;
   min-height: 100vh;
   overscroll-behavior: none;
@@ -140,7 +140,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Newsreader", sans-serif;
+  font-family: "Familjen Grotesk", sans-serif;
 }
 
 .card,
@@ -257,16 +257,16 @@ button.card {
 [data-tone="deep"] {
   --background: var(--deep);
   --foreground: var(--deep-foreground);
-  --card: #f2e0e0;
+  --card: #1e1c1a;
   --card-foreground: var(--deep-foreground);
   --primary: var(--deep-foreground);
   --primary-foreground: var(--deep);
   --secondary: #cb8152;
   --secondary-foreground: var(--deep-foreground);
-  --muted: #ebe0df;
-  --muted-foreground: #765b60;
-  --border: #e3d7d7;
-  --input: #e3d7d7;
+  --muted: #1c1a18;
+  --muted-foreground: #a8a198;
+  --border: #2c2926;
+  --input: #2c2926;
   --ring: var(--deep-foreground);
   background-color: var(--background);
   color: var(--foreground);
