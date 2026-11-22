@@ -141,7 +141,7 @@ export default function HomePage() {
             {
               name: "Stick box",
               category: "Stick Box",
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795313023436-slywe6pb.png?_wi=4"
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795320846544-mqfxoxdg.png"
             },
             {
               name: "Teddy bear box",
