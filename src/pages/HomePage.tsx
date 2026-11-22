@@ -116,7 +116,7 @@ export default function HomePage() {
           bottomItem={{
             title: "Gold Coast Handcrafted Quality",
             description: "Each chocolate stick and handcrafted chocolate teddy bear is dipped and decorated by hand in Gold Coast, Australia.",
-            imageSrc: "https://img.b2bpic.net/free-photo/wooden-plate-full-nuts-crackers-dried-apricots-marble-surface_114579-42785.jpg",
+            imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795316980015-uadhx3fd.png",
             primaryButton: {
               text: "Order Custom Gifts",
               href: "#contact"
