@@ -144,16 +144,6 @@ export default function HomePage() {
               imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795320846544-mqfxoxdg.png"
             },
             {
-              name: "Stick box deluxe",
-              category: "Stick Box",
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795321157691-ae1gupb2.png"
-            },
-            {
-              name: "Stick box signature",
-              category: "Stick Box",
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795321157694-iqgyr0n4.png"
-            },
-            {
               name: "Teddy bear box",
               category: "Teddy Bear Box",
               imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795314013510-94u99mqt.png?_wi=3"
