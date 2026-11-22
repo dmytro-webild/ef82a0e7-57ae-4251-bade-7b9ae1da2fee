@@ -108,7 +108,7 @@ export default function HomePage() {
             {
               title: "Premium Belgian Chocolate",
               description: "Authentic, silky Belgian dark, milk, and ruby chocolate tempered fresh daily for a smooth, glossy coating.",
-              imageSrc: "https://img.b2bpic.net/free-photo/sweet-dessert-with-dark-chocolate_74190-7176.jpg",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795316143607-bskv0b61.png",
               zoom: 0,
               imageClassName: "object-cover"
             }
