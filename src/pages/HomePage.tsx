@@ -80,8 +80,8 @@ export default function HomePage() {
             },
             {
               title: "Artisanal tempering",
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795316277131-ausuo4yw.png?_wi=2",
-              imageAlt: "Artisanal hand tempering of chocolate"
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795316143607-bskv0b61.png?_wi=1",
+              imageAlt: "Artisanal hand tempering of silky melted Belgian chocolate"
             },
             {
               title: "Gold Coast handmade",
