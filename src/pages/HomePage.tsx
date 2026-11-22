@@ -199,7 +199,7 @@ export default function HomePage() {
           tag="Gold Coast Details"
           title="Before you order"
           description="Clear answers regarding our Australian ingredients, Gold Coast location, local pickup, and temperature-controlled shipping."
-          imageSrc="https://img.b2bpic.net/free-photo/dried-fruits-berries-wooden-platter_114579-26504.jpg"
+          imageSrc="https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795321778098-8tnnfckq.png"
           imageAlt="Belgian chocolate coated Australian fruits on wooden platter"
           imageLabel="Gold Coast, Australia"
           items={[
