@@ -74,8 +74,8 @@ export default function HomePage() {
             },
             {
               title: "Chocolate catering table",
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795314165870-gz7viate.png?_wi=1",
-              imageAlt: "Artisanal chocolate making process for luxury catering tables"
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795314311757-4shb2y1m.png?_wi=1",
+              imageAlt: "Luxury chocolate catering table display"
             },
             {
               title: "Artisanal tempering",
@@ -171,8 +171,8 @@ export default function HomePage() {
         <MetricsCupCounters
           tag="Catering & Events"
           title="Crafted for celebrations"
-          imageSrc="https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795314165870-gz7viate.png?_wi=2"
-          imageAlt="Fine process of making chocolates for luxury catering tables"
+          imageSrc="https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795314311757-4shb2y1m.png?_wi=2"
+          imageAlt="Luxury chocolate catering table display"
           items={[
             {
               value: 10,
