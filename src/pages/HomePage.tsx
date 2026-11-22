@@ -24,7 +24,7 @@ export default function HomePage() {
         <HeroBillboardBrandFloatingCards
           textAnimation="fade-blur"
           brand="Dolcea Chocolate"
-          description="Handmade in Gold Coast, Australia. We craft luxury chocolate coated fruit boxes, chocolate coated fruit hearts, and chocolate teddy bears using premium Australian ingredients and fine Belgian chocolate."
+          description="Handmade in Gold Coast, Australia. We craft luxury chocolate coated fruit boxes, and teddy bears using premium Australian ingredients and fine Belgian chocolate."
           primaryButton={{
             text: "Hand-Dipped Selections",
             href: "#menu"
