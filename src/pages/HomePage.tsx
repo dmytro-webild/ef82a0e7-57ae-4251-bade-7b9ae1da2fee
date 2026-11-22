@@ -171,8 +171,8 @@ export default function HomePage() {
           imageAlt="Luxury chocolate catering table display"
           items={[
             {
-              value: 10,
-              suffix: "k+",
+              value: 100,
+              suffix: "+",
               label: "Boxes delivered"
             },
             {
