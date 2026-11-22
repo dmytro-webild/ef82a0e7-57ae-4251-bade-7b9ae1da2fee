@@ -96,7 +96,7 @@ export default function HomePage() {
         <FeaturesGridSplitLarge
           textAnimation="fade-blur"
           tag="Brand Story"
-          title="Handmade quality with Australian ingredients & Belgian chocolate"
+          title="Handmade quality with local ingredients & premium chocolate"
           description="Based in Gold Coast, Australia, Dolcea Chocolate crafts artisanal confections by hand. We pair locally harvested Australian fresh fruits with rich Belgian chocolate."
           topItems={[
             {
