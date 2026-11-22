@@ -103,7 +103,7 @@ export default function HomePage() {
             {
               title: "Fresh Australian Ingredients",
               description: "Plump, sweet Australian strawberries, berries, and fruits harvested directly from local growers.",
-              imageSrc: "https://img.b2bpic.net/free-photo/wooden-plate-full-nuts-crackers-dried-apricots-marble-surface_114579-42785.jpg"
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795316427651-c5f1m8ep.png"
             },
             {
               title: "Premium Belgian Chocolate",
@@ -116,7 +116,7 @@ export default function HomePage() {
           bottomItem={{
             title: "Gold Coast Handcrafted Quality",
             description: "Each chocolate stick and handcrafted chocolate teddy bear is dipped and decorated by hand in Gold Coast, Australia.",
-            imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795316189730-0epem7kn.png",
+            imageSrc: "https://img.b2bpic.net/free-photo/wooden-plate-full-nuts-crackers-dried-apricots-marble-surface_114579-42785.jpg",
             primaryButton: {
               text: "Order Custom Gifts",
               href: "#contact"
