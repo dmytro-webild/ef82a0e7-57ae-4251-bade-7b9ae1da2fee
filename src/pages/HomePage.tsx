@@ -225,7 +225,7 @@ export default function HomePage() {
             },
             {
               title: "Can I customize orders for gifts or parties?",
-              description: "Absolutely. You can request custom assortments of chocolate sticks or chocolate teddy bear arrangements. Contact us via email or WhatsApp."
+              description: "Absolutely. You can request custom assortments of chocolate sticks or chocolate teddy bear arrangements. Contact us via email, Instagram or WhatsApp."
             }
           ]}
         />
