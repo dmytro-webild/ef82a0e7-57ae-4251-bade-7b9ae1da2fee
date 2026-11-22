@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=Cormorant+Garamond:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=Karla:wght@400;500;600;700&family=Familjen+Grotesk:wght@400;500;600;700&family=Newsreader:wght@400;500;600;700&family=Work+Sans:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=Cormorant+Garamond:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=Karla:wght@400;500;600;700&family=Familjen+Grotesk:wght@400;500;600;700&family=Newsreader:wght@400;500;600;700&family=Work+Sans:wght@400;500;600;700&family=Caveat+Brush&family=Figtree:wght@400;500;600;700&display=swap");
 @import url("https://fonts.cdnfonts.com/css/messy-handwritten");
 @import "tailwindcss";
 @import "./styles/animations.css";
@@ -10,15 +10,15 @@
 
 /* webild:theme-ai */
 :root {
-  --primary-cta: #e8c9a8;
-  --primary-cta-text: #18110d;
-  --secondary-cta: #2e221a;
-  --secondary-cta-text: #f4e9df;
-  --background-accent: #c98a55;
+  --primary-cta: #3f5128;
+  --primary-cta-text: #f2f4ea;
+  --secondary-cta: #ffffff;
+  --secondary-cta-text: #1f2616;
+  --background-accent: #a7bd7a;
 
-  --background: #18110d;
-  --foreground: #f4e9df;
-  --card: #241a14;
+  --background: #f2f4ea;
+  --foreground: #1f2616;
+  --card: #e4e9d6;
   --card-foreground: var(--foreground);
   --popover: var(--card);
   --popover-foreground: var(--foreground);
@@ -26,23 +26,23 @@
   --primary-foreground: var(--primary-cta-text);
   --secondary: var(--secondary-cta);
   --secondary-foreground: var(--secondary-cta-text);
-  --muted: #211813;
-  --muted-foreground: #b8a495;
+  --muted: #e1e5d5;
+  --muted-foreground: #5a6350;
   --accent: var(--background-accent);
-  --accent-foreground: #18110d;
-  --deep: #0c0806;
-  --deep-foreground: #f4e9df;
+  --accent-foreground: #1f2616;
+  --deep: #1f2616;
+  --deep-foreground: #f2f4ea;
   --destructive: #ef4444;
   --destructive-foreground: #1b1b1b;
-  --border: #33261d;
-  --input: #33261d;
+  --border: #d6dcc6;
+  --input: #d6dcc6;
   --ring: var(--primary-cta);
   --radius: 1.75rem;
 
-  --font-heading: "Cormorant Garamond", sans-serif;
-  --font-body: "Karla", sans-serif;
+  --font-heading: "Caveat Brush", sans-serif;
+  --font-body: "Figtree", sans-serif;
   --font-label: "Inter", sans-serif;
-  --heading-weight: 600;
+  --heading-weight: 400;
   --heading-tracking: 0em;
   --heading-leading: 1.15;
   --text-display: clamp(4.5rem, 0.8rem + 17.5vw, 16.5rem);
@@ -132,7 +132,7 @@ body {
   margin: 0;
   background-color: var(--background);
   color: var(--foreground);
-  font-family: "Karla", sans-serif;
+  font-family: "Figtree", sans-serif;
   position: relative;
   min-height: 100vh;
   overscroll-behavior: none;
@@ -140,7 +140,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Cormorant Garamond", sans-serif;
+  font-family: "Caveat Brush", sans-serif;
 }
 
 .card,
@@ -257,16 +257,16 @@ button.card {
 [data-tone="deep"] {
   --background: var(--deep);
   --foreground: var(--deep-foreground);
-  --card: #241a14;
+  --card: #e4e9d6;
   --card-foreground: var(--deep-foreground);
   --primary: var(--deep-foreground);
   --primary-foreground: var(--deep);
   --secondary: #cb8152;
   --secondary-foreground: var(--deep-foreground);
-  --muted: #211813;
-  --muted-foreground: #b8a495;
-  --border: #33261d;
-  --input: #33261d;
+  --muted: #e1e5d5;
+  --muted-foreground: #5a6350;
+  --border: #d6dcc6;
+  --input: #d6dcc6;
   --ring: var(--deep-foreground);
   background-color: var(--background);
   color: var(--foreground);
