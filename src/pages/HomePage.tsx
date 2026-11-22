@@ -40,7 +40,7 @@ export default function HomePage() {
               name: "Chocolate Sticks"
             },
             {
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795313023439-tiy7i9uv.png?_wi=1",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795314013510-94u99mqt.png?_wi=1",
               name: "Teddy Bears"
             }
           ]}
@@ -69,7 +69,7 @@ export default function HomePage() {
             },
             {
               title: "Chocolate teddy bears",
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795313023439-tiy7i9uv.png?_wi=2",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795314013510-94u99mqt.png?_wi=2",
               imageAlt: "Handcrafted Belgian chocolate teddy bears with gold accents"
             },
             {
@@ -150,17 +150,17 @@ export default function HomePage() {
             {
               name: "Artisan Chocolate Teddy Bear Pair",
               category: "Teddy Bears",
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795313023439-tiy7i9uv.png?_wi=3"
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795314013510-94u99mqt.png?_wi=3"
             },
             {
               name: "Belgian Milk Chocolate Teddy Bears",
               category: "Teddy Bears",
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795313023439-tiy7i9uv.png?_wi=4"
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795314013510-94u99mqt.png?_wi=4"
             },
             {
               name: "Gold-Brushed Red & Milk Teddy Bears",
               category: "Teddy Bears",
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795313023439-tiy7i9uv.png?_wi=5"
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795314013510-94u99mqt.png?_wi=5"
             }
           ]}
           allLabel="All Selections"
