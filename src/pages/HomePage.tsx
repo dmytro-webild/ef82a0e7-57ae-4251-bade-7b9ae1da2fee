@@ -141,21 +141,25 @@ export default function HomePage() {
             {
               name: "Signature box",
               category: "Stick Box",
+              price: "$60",
               imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795320846544-mqfxoxdg.png"
             },
             {
               name: "Teddy bear box",
               category: "Teddy Bear Box",
+              price: "$70",
               imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795314013510-94u99mqt.png?_wi=3"
             },
             {
               name: "Donut box",
               category: "Donut Box",
+              price: "$80",
               imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795320890359-22271udb.png"
             },
             {
               name: "Mix box",
               category: "Mix Box",
+              price: "$100",
               imageSrc: "https://storage.googleapis.com/webild/users/user_3MPo9I4ymqKRFl8EggCcfZpPIAj/uploaded-1795320920382-h131965e.png"
             }
           ]}
