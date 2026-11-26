@@ -31,6 +31,7 @@ const itemVariants = {
 type FilterItem = {
   name: string;
   category: string;
+  price?: string;
 } & ({ imageSrc: string; videoSrc?: never } | { videoSrc: string; imageSrc?: never });
 
 type FeaturesFilterGridProps = {
@@ -132,13 +133,18 @@ const FeaturesFilterGrid = ({
                 <motion.div key={item.name} variants={itemVariants} role="listitem">
                   <div className="p-1 xl:p-2 2xl:p-3 card rounded overflow-hidden shadow-xl">
                     <div className="relative">
+                      {item.price && (
+                        <div className="absolute top-2 right-2 md:top-3 md:right-3 z-10 px-2.5 py-1 md:px-3 md:py-1 rounded-full bg-gradient-to-r from-[#d4af37] via-[#f9e79f] to-[#b8860b] text-[#18110d] font-bold text-xs md:text-sm shadow-lg border border-[#fff5cc]/40 tracking-wide">
+                          {item.price}
+                        </div>
+                      )}
                       {item.videoSrc ? (
                         <LazyVideo src={item.videoSrc} className="w-full aspect-3/4 object-cover rounded" />
                       ) : (
                         <Media src={item.imageSrc} alt="" loading="lazy" decoding="async" className="w-full aspect-3/4 object-cover rounded" />
                       )}
-                      <div className="absolute bottom-1 xl:bottom-2 2xl:bottom-3 inset-x-1 xl:inset-x-2 2xl:inset-x-3 card rounded p-1 xl:p-2 2xl:p-3">
-                        <h4 className="text-xl md:text-2xl 2xl:text-3xl text-center truncate">{item.name}</h4>
+                      <div className="absolute bottom-1 xl:bottom-2 2xl:bottom-3 inset-x-1 xl:inset-x-2 2xl:inset-x-3 card rounded p-1 xl:p-2 2xl:p-3 flex flex-col items-center justify-center gap-1">
+                        <h4 className="text-lg md:text-xl 2xl:text-2xl text-center truncate font-medium">{item.name}</h4>
                       </div>
                     </div>
                   </div>
