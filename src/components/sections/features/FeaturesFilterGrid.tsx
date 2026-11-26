@@ -134,7 +134,7 @@ const FeaturesFilterGrid = ({
                   <div className="p-1 xl:p-2 2xl:p-3 card rounded overflow-hidden shadow-xl">
                     <div className="relative">
                       {item.price && (
-                        <div className="absolute top-2.5 right-2.5 md:top-3 md:right-3 z-10 px-2.5 py-0.5 md:px-3.5 md:py-1 rounded-full bg-gradient-to-r from-[#d9b35b] via-[#f7e9b8] to-[#bd8c28] text-[#1a120c] font-serif text-xs md:text-sm font-semibold tracking-wider shadow-md border border-[#fff8df]/50 backdrop-blur-xs">
+                        <div className="absolute top-2.5 right-2.5 md:top-3 md:right-3 z-10 px-2.5 py-0.5 md:px-3.5 md:py-1 rounded-full bg-gradient-to-r from-[#d9b35b] via-[#f7e9b8] to-[#bd8c28] text-[#1a120c] text-xs md:text-sm font-semibold tracking-wider shadow-md border border-[#fff8df]/50 backdrop-blur-xs">
                           {item.price}
                         </div>
                       )}
